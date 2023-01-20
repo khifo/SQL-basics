@@ -8,7 +8,7 @@ SELECT MAX(birth_date) FROM employee;
 SELECT MIN(birth_date) FROM employee;
 
 -- 4 
-SELECT * FROM employee WHERE reports_to = 2;
+SELECT * FROM employee WHERE reports_to = 1;
 
 -- 5 
 SELECT COUNT(*) FROM employee WHERE city = 'Lethbridge';
